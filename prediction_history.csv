@@ -1,0 +1,5 @@
+timestamp,day,hour,weekday,predicted_demand,demand_level
+2026-05-09 23:55:37.635074,3,12,Monday,480,High
+2026-05-10 00:26:16.100114,4,19,Thursday,1815,High
+2026-05-10 00:30:39.339379,10,3,Monday,133,Medium
+2026-05-10 00:45:17.986987,1,12,Monday,480,High
