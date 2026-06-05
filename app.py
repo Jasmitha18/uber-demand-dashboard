@@ -106,4 +106,4 @@ with col4:
 
     if st.button("Open Dataset"):
 
-        st.switch_page("pages/4_Prediction_Dataset.py")
+        st.switch_page("pages/Prediction_Dataset.py")
