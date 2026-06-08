@@ -10,70 +10,40 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-/* Sidebar */
 [data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #141e30 0%, #243b55 100%);
+    background: linear-gradient(to bottom, #141e30, #243b55);
 }
 
-/* Sidebar text */
 [data-testid="stSidebar"] * {
     color: white;
 }
 
-/* Cards */
+.main {
+    background-color: #0e1117;
+    color: white;
+}
+
 .card {
-    background: rgba(255,255,255,0.08);
-    backdrop-filter: blur(12px);
+    background-color: #1f2937;
+    padding: 30px;
     border-radius: 18px;
-    padding: 25px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(255,255,255,0.15);
     text-align: center;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
 }
 
-/* Auto-adjust text color */
 .card h2 {
-    color: inherit;
-    font-weight: 700;
+    color: white;
 }
 
-/* Buttons */
 .stButton > button {
     width: 100%;
     height: 3em;
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-/* Metric Cards */
-[data-testid="metric-container"] {
-    background: rgba(128,128,128,0.08);
-    border: 1px solid rgba(128,128,128,0.20);
-    padding: 15px;
-    border-radius: 15px;
-}
-
-/* Tables */
-[data-testid="stDataFrame"] {
     border-radius: 10px;
-}
-
-/* Charts */
-.js-plotly-plot {
-    border-radius: 12px;
-}
-
-/* Tabs */
-.stTabs [data-baseweb="tab"] {
+    background-color: #00b894;
+    color: white;
     font-size: 16px;
-    font-weight: 600;
-}
-
-/* Headers */
-h1, h2, h3 {
-    font-weight: 700;
+    border: none;
 }
 
 </style>
